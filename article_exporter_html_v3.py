@@ -30,7 +30,7 @@ def save_article_as_html(url, output_folder="saved_articles"):
 
 
 # To use this script, you have to paste the article URL
-# WARNING! This script does not work on https://mindenszo.hu
+# WARNING! This script does not work on some of the web articles
 
 url = input("Enter article URL: ")
 save_article_as_html(url)
